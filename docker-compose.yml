@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  baostock:
+    build: .
+    container_name: baostock
+    volumes:
+      - ./app:/app/app
+      - ./data:/app/data
+      - ./logs:/app/logs
+    environment:
+      - PYTHONPATH=/app
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
