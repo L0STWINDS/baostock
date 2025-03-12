@@ -190,15 +190,15 @@ def plot_results(df, trade_history, initial_capital, final_assets, stock_code):
     plt.subplots_adjust(bottom=0.1)
     
     # 保存图表
-    plt.savefig(f'/opt/1panel/docker/compose/baostock/tests/backtest_result_{stock_code.replace(".", "_")}.png')
-    print(f"结果图表已保存为 backtest_result_{stock_code.replace('.', '_')}.png")
+    plt.savefig(f'/opt/1panel/docker/compose/baostock/tests/图表_{stock_code.replace(".", "_")}.png')
+    print(f"结果图表已保存为 图表_{stock_code.replace('.', '_')}.png")
 
 # 在这里修改参数
 if __name__ == "__main__":
     # 股票代码
-    STOCK_CODE = "sh.600900"
+    STOCK_CODE = "sh.601156"
     # 起始日期
-    START_DATE = '2020-03-12'
+    START_DATE = '2024-03-13'
     # 结束日期（空字符串表示当前日期）
     END_DATE = ''
     

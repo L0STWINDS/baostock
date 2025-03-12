@@ -17,10 +17,11 @@ venv/
 logs/
 *.log
 
+# Tests
+tests/
+
 # Data
 data/*
 !data/.gitkeep
 
 1panel.env
-.png
-test.py
