@@ -196,7 +196,7 @@ def plot_results(df, trade_history, initial_capital, final_assets, stock_code):
 # 在这里修改参数
 if __name__ == "__main__":
     # 股票代码
-    STOCK_CODE = "sh.601156"
+    STOCK_CODE = "sh.600418"
     # 起始日期
     START_DATE = '2024-03-13'
     # 结束日期（空字符串表示当前日期）
